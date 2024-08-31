@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-image: url(flowers-276014_640.jpg);
+            background-size: cover;
+        }  
+        .Container{
+            top:50%;
+            left:50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+
+        }
+        .Card{
+            padding: 60px 40px 50px 40px;
+            background: rgb(50,50,50);
+            border-radius: 10px;
+        }
+        #name{
+            width: 200px;
+            border: none;
+            background: transparent;
+            border-bottom:1px solid white;
+            padding: 6px;
+            margin-bottom: 15px;
+            color:rgb(222, 109, 245);
+        }
+        #button{
+            border-radius: 40px;
+            padding: 10px 20px;
+            background: rgb(233, 131, 53);
+            color: white;
+            margin-top: 20px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+        }
+        #button:hover{
+            background-color: crimson;
+            color: black;
+            
+        }
+        a{
+            font-size: 15px;
+        }
+        img{
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: -40px;
+        }
+    </style>
+</head>
+<body>
+        <div class="Container">
+            <img src="download.png" width="70">
+            <div class="Card">
+                <input type="text" placeholder="Username" id ="name"><br>
+                <input type="password" placeholder="Password" id ="name"><br>
+                <a href ="#">Forgot Password?</a><br><br>
+                <input type="submit" value="Submit" id ="button">
+                
+        </div>
+
+</body>
+</html>
